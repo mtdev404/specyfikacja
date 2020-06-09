@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+specyfikacja.code-workspace
+/.history
+/.idea
+/.storybook
+*.stories.js
+.eslintcache
+licence_for_favicon.txt
