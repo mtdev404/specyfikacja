@@ -3,7 +3,11 @@ const SECTIONS = [
     section: 'ogólne warunki dostarczania formatów reklamowych',
     subsections: [],
   },
-  { section: 'display', subsections: ['web', 'mobile'] },
+  {
+    section: 'desktop',
+    subsections: ['bannery graficzne', 'html5', 'reklama natywna'],
+  },
+  { section: 'mobile', subsections: ['bannery graficzne', 'sms', 'mms'] },
   {
     section: 'mailing',
     subsections: [
@@ -14,5 +18,4 @@ const SECTIONS = [
       'dobre praktyki w e-mailingu',
     ],
   },
-  { section: 'SMS/MMS', subsections: [] },
 ];

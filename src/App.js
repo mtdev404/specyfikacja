@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './App.module.sass';
+import './App.sass';
 
 class App extends Component {
   state = {};
